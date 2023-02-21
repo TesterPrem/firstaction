@@ -5,8 +5,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print Greeting
-        run: print("Hello World")
+        run: print "Hello World"
        
       - name: Print GoodBye
-        run: print("Done-bye")
+        run: print "Done-bye"
       
